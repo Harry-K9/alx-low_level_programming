@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * main - Prints "_putchar"
+ * main - Prints a word
  *
- * Return: Always 0.
+ * Description: just prints a statement
+ * Return: Always(0) Success
  */
+
 int main(void)
 {
 	_putchar("_p");
