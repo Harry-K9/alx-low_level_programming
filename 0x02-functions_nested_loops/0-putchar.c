@@ -6,17 +6,8 @@
  * Description: just prints a statement
  * Return: Always(0) Success
  */
-
-int main(void)
+Int  _putchar(char c)
 {
-	_putchar("_p");
-	_putchar("u");
-	_putchar("t");
-	_putchar("c");
-	_putchar("h");
-	_putchar("a");
-	_putchar("r");
-	_putchar('\n');
+	Return (write(1, &c, 1);
+			}
 
-	return (0);
-}
