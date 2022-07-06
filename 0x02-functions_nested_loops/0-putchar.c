@@ -1,13 +1,23 @@
 #include "main.h"
 
 /**
- * main - Prints a word
+ * main - Prints "_putchar" followed by a new line
  *
- * Description: just prints a statement
  * Return: Always(0) Success
  */
-Int  _putchar(char c)
-{
-	Return (write(1, &c, 1);
-			}
 
+Int main(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return (0);
+
+}
