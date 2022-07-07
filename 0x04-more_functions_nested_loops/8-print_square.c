@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_square - prints squares
- * @size: parameter
+ * @n : The number of lines using '#' characters to use per row and column
  * Return: Void.
  */
 void print_square(int n)
