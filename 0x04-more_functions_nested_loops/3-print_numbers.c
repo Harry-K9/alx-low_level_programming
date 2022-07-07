@@ -4,13 +4,13 @@
  * 0 to 9
  * Return: returns nothing
  */
-
 void print_numbers(void)
 {
-	int number = 48;
-	for (number = 48; number < 58; number++)
+	int i;
+
+	for (i = 0; i < 10; i++)
 	{
-		_putchar(number);
+		_putchar(i + '0');
 	}
-	_putchar(10);
+	_putchar('\n');
 }
