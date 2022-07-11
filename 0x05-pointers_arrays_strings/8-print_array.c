@@ -7,15 +7,15 @@
  */
 void print_array(int *a, int n)
 {
-	int x;
+	int inc;
 
-	for (x = 0 ; x < n; x++)
+	for (inc = 0; inc < n ; inc++)
 	{
-		printf("%d", a[x]);
-		if (x != n - 1)
-		{
-			printf(", ");
-		}
+		if (inc != n - 1)
+			printf("%d, ", a[inc]);
+		else
+			printf("%d", a[inc]);
+
 	}
 	printf("\n");
 }
